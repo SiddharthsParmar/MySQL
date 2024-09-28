@@ -1,0 +1,16 @@
+What is MySQL??
+MySQL is DBMS(Data Base Managament System) Build by oracle provides to store , update , retrive , and delete called CRUD Operations on data stored in RDMS (tabular form)
+
+What is Database?
+Data base is collection of structured information for better database management
+
+type of database
+Realational and  non relational database
+
+Relational Database
+In RDMS data is stored in form of tables and they have relation between.
+
+ENVIRONMENT SETUP GUIDE &  LINKS
+
+Mysql community : https://dev.mysql.com/downloads/mysql/8.0.html
+
