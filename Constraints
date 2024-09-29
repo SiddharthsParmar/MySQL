@@ -1,0 +1,6 @@
+What is Contraints in MySQL??
+-->  contstraints refers to a rule that should be applied to your data before inputing the data.
+ex. NOT NULL , UNIQUE , FOREIGN  KEYS , PRIMARY KEY ETC.
+ex. 1] ID must be not null and unique,
+    2] email should be unique
+    3] condition like age > 18 can be applied to an age column
