@@ -4,3 +4,18 @@ ex. NOT NULL , UNIQUE , FOREIGN  KEYS , PRIMARY KEY ETC.
 ex. 1] ID must be not null and unique,
     2] email should be unique
     3] condition like age > 18 can be applied to an age column
+
+PRACTICAL:
+--> CREATE DATABASE ECOMMERCE;
+--> USE ECOMMERCE;
+
+--> CREATE TABLE customer_data
+(
+     id INT unique not null,
+    userName varchar(15) unique not null,
+    phone varchar(150) not null unique
+);
+
+--> INSERT INTO customer_data(id , userName , phone ) VALUES(1 , "user1" , "+1 123456"); 
+another way --> INSERT INTO customer_data VALUES(1 , "user1" , "+1 123456")  // direct values without specifying column names
+here not null , unique called contraints
