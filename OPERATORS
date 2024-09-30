@@ -1,0 +1,21 @@
+OPERATORS :: AND  , OR , NOT
+
+1) AND --> AND Operator ands the two expressions and give true only if both the expressions are true
+
+-- condition1 AND Condition2
+ex. if we want users age between two numbers than it ca be used
+SELECT * FROM tableName 
+WHERE age>=18 AND age<=25 AND city = "AHMEDABAD" 
+
+2) OR --> OR Opearator compares two expressions and gives true even if at least one of them is true 
+
+SELECT * FROM tableName 
+WHERE city = "NEW YORK" OR city = "CHICAGO";
+
+3) NOT --> Negates the input 
+SELECT * FROM tableName 
+WHERE NOT city = "NEW YORK" AND NOT city = "CHICAGO";
+
+
+++ IN OPERATOR ++
+SELECT  * FROM table_name where column_name IN (V1 , v2 , v3);
